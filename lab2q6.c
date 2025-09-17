@@ -11,15 +11,16 @@ int main()
     printf("please enter the second number: ");
     scanf("%d",&num2);
     switch(operation){
-        case 'addition': printf("num1 + num2 = %d",num1 + num2);
+        case 'a': printf("num1 + num2 = %d",num1 + num2);
                  break;
-        case 'substraction': printf("num1 - num2 = %d",num1 - num2);
+        case 's': printf("num1 - num2 = %d",num1 - num2);
                  break;
-        case 'multiplication': printf("num1 * num2 = %d",num1 * num2);
+        case 'm': printf("num1 * num2 = %d",num1 * num2);
                  break;
-        case 'division': printf("num1 / num2 = %f", (1.0 * num1)/num2);
+        case 'd': printf("num1 / num2 = %f", (1.0 * num1)/num2);
                  break;       
     }
     return 0;
 
 }
+
